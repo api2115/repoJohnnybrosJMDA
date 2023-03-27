@@ -7,7 +7,7 @@ docker build -t local-mysql .
 ```
 Po czym wystartować kontener przy pomocy komendy:
 ```
-docker run local-mysql
+docker run -d local-mysql
 ```
 ### Wykresy płatności w czasie
 Kod użyty do stworzenia wykresów dostępny w pliku [Plots.py](Plots.py)
